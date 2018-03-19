@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Quiz</title>
+</head>
+<body>
+
+	<form>
+		<!-- Div for First and last name -->
+		<div>
+			<label for="firstName">
+				First Name:
+				<input id="firstName" type="text" name="fName" required>
+			</label>
+		
+		
+			<label for="lastName">
+				Last Name:
+				<input id="lastName" type="text" name="lName" required>
+			</label>
+		</div>
+
+		<!-- Div for gender selection -->
+		<div>
+			<label for="male">
+				Male: 
+				<input id="male" type="radio" name="gender">
+			</label>
+			
+
+			<label for="female">
+				Female: 
+				<input id="female" type="radio" name="gender">
+			</label>
+
+			<label for="other">
+				Other: 
+				<input id="other" type="radio" name="gender">
+			</label>
+		</div>
+
+		<!-- div for email address and password -->
+		<div>
+			<label for="email">
+				Email Address: 
+				<input id="email" type="email" name="email" placeholder="email">
+			</label>
+			
+			<label for="password">
+				Password:
+				<input id="password" type="password" name="password" required>
+			</label>
+		</div>
+
+		<!-- div for birthday -->
+		<div>
+			Birthday:
+			<select value="Month">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+			</select>
+
+			<select value="Day">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+			</select>
+
+			<select value="Year">
+				<option>2018</option>
+				<option>2017</option>
+				<option>2016</option>
+			</select>
+		</div>
+
+		<!-- div for terms of agreement -->
+		<div>
+			<p>I agree to the terms and conditions</p>
+
+			<input type="checkbox" name="agreement" value="agree">
+		</div>
+
+			<input type="submit">
+	</form>
+
+</body>
+</html>
