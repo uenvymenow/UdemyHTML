@@ -1,4 +1,4 @@
-/* Style the HTML elements according to the following instructions. 
+ /* Style the HTML elements according to the following instructions. 
 DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 
 /* Give the <body> element a background of #bdc3c7*/
@@ -86,7 +86,7 @@ div:nth-of-type(3) em {
 /*You may need to research some other selectors and properties*/
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-input[type="checkbox"].checked{
+input:checked{
 	margin-left: 50px;
 }
 
