@@ -2,41 +2,21 @@ h1 {
 	text-align: center;
 }
 
-#topLeft {
-	margin: 0 auto auto 0;
-	border-right: 1px solid black;
-	border-bottom: 1px solid black;
+table {
+	margin: auto;
 }
 
-#topCenter {
-	border-right: 1px solid black;
-	border-bottom: 1px solid black;
+td {
+	height: 100px;
+	width: 100px;
 }
 
-#topRight {
-	border-bottom: 1px solid black;
-}
-
-#midLeft {
-	margin: 0 auto auto 0;
-	border-right: 1px solid black;
-	border-bottom: 1px solid black;
-}
-
-#midCenter {
-	border-right: 1px solid black;
-	border-bottom: 1px solid black;
-}
-
-#midRight {
-	border-bottom: 1px solid black;
-}
-
-#bottomLeft {
-	margin: 0 auto auto 0;
+.vertical {
+	border-left: 1px solid black;
 	border-right: 1px solid black;
 }
 
-#bottomCenter {
-	border-right: 1px solid black;
+.horizontal {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }

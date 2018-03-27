@@ -1,0 +1,38 @@
+body {
+	margin: 0 auto 0 auto;
+	width: 50%;
+	border: 10px solid gray;
+}
+
+h2 {
+	text-align: left;
+	font-family: "Source Sans Serif", sans-serif;
+	color: #031623;
+	padding-left: 10px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 36px;
+}
+
+p {
+	font-family: "Source Sans Serif", sans-serif;
+	padding-left: 10px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+hr {
+	margin: auto 10px auto 10px;
+}
+
+.quoteblock {
+	margin-left: 10px;
+	border-left: 4px solid #9eaabc;
+}
+
+.date {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #64b5ef;
+	font-size: 12px;
+}
